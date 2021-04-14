@@ -1,0 +1,86 @@
+/*Estilos generales*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/*colores de texto*/
+.text-blue {
+    color: rgb(0, 217, 255);
+}
+
+/*colores de fondo*/
+.bg-gray {
+    background: url("../img/perrito.jpg");
+    background-size: cover;
+    /*background-position: medida en y medida en x;*/
+    background-position-y: 57%;
+}
+.bg-white {
+    background-color: white;
+}
+
+/*contenedor del formulario*/
+.form-container {
+    padding: 4rem;
+    width: 30%;
+    height: 20rem;
+    /*border: <tipo de borde> <medida del borde> <color del borde>;*/
+    border: solid 0.1rem gray;
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /*box-shadow: <posicion en x> <posicion en y> <nivel de distorcion> <color de la sombra>;*/
+    box-shadow: -11px 11px 10px rgba(12, 12, 12, 0.466);
+}
+
+/*contenedor de los inputs*/
+.input-container {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container input{
+    border-radius: 0.4rem;
+    border: solid 0.1rem gray;
+    padding: 0.4rem;
+    margin-top: 0.2rem;
+}
+
+/*contenedor checkbox*/
+.check-container {
+    margin-top: 0.7rem;
+} 
+
+.check-container {
+    margin-right: 1rem;
+}
+
+/*estilos de boton*/
+.btn-container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    padding: 0.7rem;
+    background-color: rgb(0, 255, 42);
+    border: 0px;
+    border-radius: 0.3rem;
+    color: white;
+}
+
+.btn:hover {
+    background-color: greenyellow;
+    color: black;
+}
+
+/*alineacion del formulario*/
+.screen-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+}
